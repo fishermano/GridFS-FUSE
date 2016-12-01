@@ -1,0 +1,7 @@
+#!/bin/sh
+echo "set ulimit -c 1024"
+ulimit -c 1024
+echo "set ulimit -s unlimited"
+ulimit -s unlimited
+echo "mount gridfs to /media/gridfs"
+./mount_gridfs --db=mytest --host=localhost /media/gridfs/ -obig_writes

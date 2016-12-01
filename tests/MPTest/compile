@@ -1,0 +1,18 @@
+#! /bin/sh
+echo "g++ -lpthread -o test_cat test_cat.cpp"
+g++ -lpthread -o test_cat test_cat.cpp
+echo "g++ -lpthread -o test_cd test_cd.cpp"
+g++ -lpthread -o test_cd test_cd.cpp
+echo "g++ -lpthread -o test_cp test_cp.cpp"
+g++ -lpthread -o test_cp test_cp.cpp
+echo "g++ -lpthread -o test_echo test_echo.cpp"
+g++ -lpthread -o test_echo test_echo.cpp
+echo "g++ -lpthread -o test_ls test_ls.cpp"
+g++ -lpthread -o test_ls test_ls.cpp
+echo "g++ -lpthread -o test_mv test_mv.cpp"
+g++ -lpthread -o test_mv test_mv.cpp
+echo "g++ -lpthread -o test_rm test_rm.cpp"
+g++ -lpthread -o test_rm test_rm.cpp
+echo "g++ -lpthread -o test_mkdir test_mkdir.cpp"
+g++ -lpthread -o test_mkdir test_mkdir.cpp
+

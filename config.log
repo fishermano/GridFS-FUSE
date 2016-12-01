@@ -1,0 +1,123 @@
+file /opt/gridfs-fuse-1.4.1/SConstruct,line 18:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for C library mongoclient... 
+scons: Configure: ".sconf_temp/conftest_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_0.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_0.o -c -D_FILE_OFFSET_BITS=64 -g .sconf_temp/conftest_0.c
+  |
+scons: Configure: ".sconf_temp/conftest_0" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_0 .sconf_temp/conftest_0.o -lmongoclient
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library fuse... 
+scons: Configure: ".sconf_temp/conftest_1.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_1.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_1.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_1.o -c -D_FILE_OFFSET_BITS=64 -g .sconf_temp/conftest_1.c
+  |
+scons: Configure: ".sconf_temp/conftest_1" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_1 .sconf_temp/conftest_1.o -lmongoclient -lfuse
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library boost_thread-mt... 
+scons: Configure: ".sconf_temp/conftest_2.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_2.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_2.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_2.o -c -D_FILE_OFFSET_BITS=64 -g .sconf_temp/conftest_2.c
+  |
+scons: Configure: ".sconf_temp/conftest_2" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_2 .sconf_temp/conftest_2.o -lmongoclient -lfuse -lboost_thread-mt
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library boost_system-mt... 
+scons: Configure: ".sconf_temp/conftest_3.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_3.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_3.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_3.o -c -D_FILE_OFFSET_BITS=64 -g .sconf_temp/conftest_3.c
+  |
+scons: Configure: ".sconf_temp/conftest_3" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_3 .sconf_temp/conftest_3.o -lmongoclient -lfuse -lboost_thread-mt -lboost_system-mt
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library boost_filesystem-mt... 
+scons: Configure: ".sconf_temp/conftest_4.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_4.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_4.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_4.o -c -D_FILE_OFFSET_BITS=64 -g .sconf_temp/conftest_4.c
+  |
+scons: Configure: ".sconf_temp/conftest_4" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_4 .sconf_temp/conftest_4.o -lmongoclient -lfuse -lboost_thread-mt -lboost_system-mt -lboost_filesystem-mt
+  |
+scons: Configure: (cached) yes
+
+

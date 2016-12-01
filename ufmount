@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "umount gridfs from /media/gridfs"
+fusermount -u /media/gridfs/
