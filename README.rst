@@ -8,14 +8,13 @@ Requirements
 ============
 
 * A recent (v1.1.2 or later) MongoDB
-* FUSE
+* FUSE (v.2.8.5)
 * scons
-* Boost
+* Boost (v1.49.0)
 
 Authors
 =======
-Copyright 2009 Michael Stephens
-Copyright 2014 陈亚兴（Modified/Updated）
+Copyright 2014 Yaxing Chen
 
 Building
 ========
